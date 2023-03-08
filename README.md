@@ -1,9 +1,20 @@
 # Reto_4
+#numeros primos
 
 
 
-#Raiz pseudocodigo
 
+
+ pseudocodigo
+
+
+
+#Raiz cuadrada
+
+
+
+
+ pseudocodigo
 
 
 ````python
