@@ -6,7 +6,7 @@
 
 
 
-
+````python
 Inicio
 |
 |___ Leer el número del cual se desea calcular la raíz cuadrada
@@ -36,3 +36,4 @@ Inicio
 |       |___ Asignar y a x
 |
 |___ Fin
+````
