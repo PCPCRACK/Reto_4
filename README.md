@@ -31,7 +31,7 @@ Fin
 
 ````python
 def calcular_raiz_cuadrada(numero):
-    # Inicializamos los valores de a, b y epsilon
+    # Inicializamos los valores de a, b y c
     a = 0
     b = numero
     c = 0.00001
