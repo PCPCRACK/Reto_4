@@ -26,21 +26,10 @@ while n < 1000: #mientras el valor del dividendo sea menor a mil
 
 #Raiz cuadrada
 
-```python
-Inicio
-Leer el número al que se le va a calcular la raíz cuadrada (numero)
-Inicializar a = 0
-Inicializar b = numero
-Inicializar c = 0.00001
-Mientras abs(a - b) > c, hacer lo siguiente:
-    Calcular el punto medio x = (a + b) / 2.0
-    Si x*x > numero, entonces:
-        b = x
-    De lo contrario:
-        a = x
-Devolver x como la raíz cuadrada de numero
-Fin
-```
+Diagrama de flujo
+
+
+ [![a.png](https://i.postimg.cc/N0F9H5vr/a.png)](https://postimg.cc/xkr1rjC0)
 
  pseudocodigo
 
