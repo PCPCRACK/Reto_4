@@ -2,11 +2,27 @@
 
 #numeros primos
 
+Diagrama de flujo
 
+[![Captura.png](https://i.postimg.cc/tRnK5SmJ/Captura.png)](https://postimg.cc/QVsYNbDZ)
 
  pseudocodigo
 
+```python
+n = int(2) #establecemos el divisor y dividendo como enteros
+i = int(2) 
 
+while n < 1000: #mientras el valor del dividendo sea menor a mil
+    if n == 2: #si el dividendo es igual a dos es primo
+        print(n, "es primo")
+    if n%i == 0: #si el numero es divisible por residuo y da cero 
+        n = n+1 #se aumenta el numero dividendo en uno
+        i = 2 #se restable el valor de el divisor a dos
+    else: 
+        i = i+1 #sino el divisor se aumenta en uno 
+        if i == n-1: #se el dividor es menor que el dividendo en uno es primo
+            print(n, "es primo")
+```
 
 #Raiz cuadrada
 
