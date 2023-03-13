@@ -46,24 +46,23 @@ Fin
 
 
 ````python
-def calcular_raiz_cuadrada(numero):
-    # Inicializamos los valores de a, b y c
-    a = 0
-    b = numero
-    c = 0.00001
+# Inicialización de variables
+num = float(input("ingresa un numero"))
+a = 0
+b = num
+c = 0.00001  # Margen de error 
 
-    # Mientras la diferencia entre a y b sea mayor que c
-    while abs(a - b) > c:
-        # Calculamos el punto medio de a y b
-        x = (a + b) / 2.0
-        # Si x al cuadrado es mayor que el número, nos movemos hacia la izquierda
-        if x*x > numero:
-            b = x
-        # Si x al cuadrado es menor que el número, nos movemos hacia la derecha
-        else:
-            a = x
+# Algoritmo de aproximación por división y resta
+while True:
+    promedio = (a + b) / 2.0
+    if abs(promedio**2 - num) <= c:
+        break
+    elif promedio**2 < num:
+        a = promedio
+    else:
+        b = promedio
 
-    # Devolvemos el valor de x, que es la raíz cuadrada aproximada del número
-    return x
+# Imprimimos el resultado
+print("La raíz cuadrada de", num, "es:", promedio)
 
 ````
