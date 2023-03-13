@@ -36,7 +36,7 @@ def calcular_raiz_cuadrada(numero):
     b = numero
     c = 0.00001
 
-    # Mientras la diferencia entre a y b sea mayor que epsilon
+    # Mientras la diferencia entre a y b sea mayor que c
     while abs(a - b) > c:
         # Calculamos el punto medio de a y b
         x = (a + b) / 2.0
